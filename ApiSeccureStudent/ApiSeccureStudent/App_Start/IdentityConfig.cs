@@ -29,7 +29,7 @@ namespace ApiSeccureStudent
             manager.PasswordValidator = new PasswordValidator
             {
                 RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
+                RequireNonLetterOrDigit = false, //no nos pedira un caracter especial
                 RequireDigit = true,
                 RequireLowercase = true,
                 RequireUppercase = true,
